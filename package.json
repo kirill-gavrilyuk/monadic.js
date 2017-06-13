@@ -1,6 +1,6 @@
 {
   "name": "monadic.js",
-  "version": "0.0.3",
+  "version": "0.0.6",
   "description": "Parser and Plugin for babel, that allows you to use haskell-like do notation in regular JS code.",
   "main": "index.js",
   "scripts": {
