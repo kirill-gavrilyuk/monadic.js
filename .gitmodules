@@ -1,0 +1,3 @@
+[submodule "parser"]
+	path = parser
+	url = git@github.com:kirill-gavrilyuk/babylon-monadic.js.git

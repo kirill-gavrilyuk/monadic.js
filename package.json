@@ -1,0 +1,29 @@
+{
+  "name": "monadic.js",
+  "version": "0.0.3",
+  "description": "Parser and Plugin for babel, that allows you to use haskell-like do notation in regular JS code.",
+  "main": "index.js",
+  "scripts": {
+    "build": "bash build.sh",
+    "push": "bash publish.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kirill-gavrilyuk/monadic.js.git"
+  },
+  "keywords": [
+    "monads",
+    "pure",
+    "fp"
+  ],
+  "files": [
+    "dist",
+    "index.js"
+  ],      
+  "author": "Kirill Gavrilyuk kirill.gavrilyuk.work@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kirill-gavrilyuk/monadic.js/issues"
+  },
+  "homepage": "https://github.com/kirill-gavrilyuk/monadic.js#readme"
+}
