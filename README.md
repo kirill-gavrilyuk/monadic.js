@@ -1,6 +1,8 @@
 # monadic.js
 
-Parser and Plugin for babel that provides haskell-like do-notation into javascript. 
+Parser and Plugin for babel that provides haskell-like do-notation into javascript.
+
+Should work with babel6
 
 ## Setup
 
@@ -35,20 +37,11 @@ Part of webpack config (as an example):
 
 ## Usage
 
-`Monad` object, should contain, at least, two fields:
-```
-mbind   :: (ma, a -> mb) -> mb
-mreturn :: a -> ma
-```
+In progress... Stay tuned... 
 
-Inside of doExpression's body block, you can use:
-- `<-` operator (`a <- *expression*` is a **statement**)
-- multiple `return` (`return` is an **expression**, and can be used where expression allowed)
+You can take a look at, first: 
+https://github.com/kirill-gavrilyuk/Scratch2/blob/master/src/app/main.js
 
-**The last line can ONLY be an expression.**
- 
-
-For more details look here: [monadic.js-playground](https://github.com/kirill-gavrilyuk/monadic.js-playground)
 
 Some (maybe) useful articles about monads:
 
